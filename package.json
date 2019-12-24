@@ -1,12 +1,27 @@
 {
-  "name": "@j127/parceljs_example",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "J. Cohen <hostelmarketing@gmail.com> (https://github.com/j127)",
-  "license": "ISC"
+    "name": "@codeselfstudy/parceljs_example",
+    "version": "0.1.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "npx parcel ./src/index.html",
+        "build": "npx parcel build ./src/index.html"
+    },
+    "keywords": [
+        "parcel",
+        "babel",
+        "scss"
+    ],
+    "author": "J. Cohen <hostelmarketing@gmail.com> (https://github.com/j127)",
+    "license": "MIT",
+    "dependencies": {
+        "bulma": "^0.8.0",
+        "lodash": "^4.17.15"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.7.7",
+        "@babel/preset-env": "^7.7.7",
+        "parcel-bundler": "^1.12.4",
+        "sass": "^1.24.0"
+    }
 }
