@@ -1,3 +1,5 @@
-# README
+# Parcel.js Example
 
-TODO: edit this file.
+A quick example of using Parcel.js.
+
+Live version is [here](https://cat-cards.netlify.com/).

@@ -13,7 +13,7 @@ function generateCats(num) {
     for (let i = 0; i < num; i++) {
         output.push({
             name: faker.name.firstName(),
-            age: Math.floor(Math.random() * 20) + 1,
+            age: random(1, 20),
             phoneNumber: faker.phone.phoneNumber(),
             quote: faker.hacker.phrase(),
             pic: `https://placekitten.com/${random(80, 100)}/${random(80, 100)}`,
