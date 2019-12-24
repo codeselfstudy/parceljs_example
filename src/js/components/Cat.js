@@ -12,7 +12,7 @@ export default function Cat(cat) {
                         </figure>
                     </div>
                     <div class="media-content">
-                        <p class="title is-4">${cat.name} (age ${cat.age})</p>
+                        <p class="title is-4">${cat.name} (${cat.age})</p>
                         <p class="subtitle is-6">@${cat.name.replace(/ /, "").toLowerCase()} (tel: ${cat.phoneNumber})</p>
                     </div>
                 </div>
