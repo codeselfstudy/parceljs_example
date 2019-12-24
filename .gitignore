@@ -6,6 +6,9 @@ tags.*
 .vscode/
 *.sw[op]
 
+.cache/
+dist/
+
 # Python
 *.py[cod]
 __pycache__/
